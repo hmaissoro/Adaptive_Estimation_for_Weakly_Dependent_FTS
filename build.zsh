@@ -38,7 +38,7 @@ cd ..
 DOCS_NAME=$(ls | grep .pdf)
 
 mkdir -p $OUTPUT_DIR
-mv "$PACKAGE_DIR/$PACKAGE_NAME" "$OUTPUT_DIR/${PACKAGE_NAME%.tar.gz}_$OS_$ARCH.tar.gz"
+mv "$PACKAGE_DIR/$PACKAGE_NAME" "$OUTPUT_DIR/${PACKAGE_NAME%.tar.gz}_${OS}_${ARCH}.tar.gz"
 
 mkdir -p docs
 mv $DOCS_NAME docs
