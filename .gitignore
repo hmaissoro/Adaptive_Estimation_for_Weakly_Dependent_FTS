@@ -1,0 +1,5 @@
+# general
+**/.DS_Store
+# R specific : apckages
+**/..Rcheck
+**/.vscode

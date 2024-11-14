@@ -37,7 +37,7 @@
 #'
 #' @importFrom methods is
 #' @importFrom data.table data.table rbindlist between
-#' @importFrom Rdpack
+#' @import Rdpack
 #'
 #' @references
 #'  \insertAllCited{}
@@ -240,10 +240,6 @@ estimate_mean_risk <- function(data, idcol = "id_curve", tcol = "tobs", ycol = "
     dependence_coef <- abs(dependence_coef)
     dependence_term <- 2 * dependence_coef  / dt_rk[, PN]
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d8b5dd12dee2ab3dddb7b7a432b3c5de45fbdff4
     ## Final risk function
     mean_risk <- bias_term + varriance_term + dependence_term
 
