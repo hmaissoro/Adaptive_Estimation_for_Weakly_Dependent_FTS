@@ -3,7 +3,9 @@
 
 This repository contains real data and R code for reproducing the numerical study in the paper [Adaptive Estimation for Weakly Dependent Functional Time Series](https://arxiv.org/abs/2403.13706) available on arXiv.
 
-The real data supporting the findings of the study are publicly available \citep[see][]{misc_individual_household_electric_power_consumption_235} and are also copied in the folder `real_data_application`. The data for the Monte Carlo study can be generated using the code provided in the folder `simulations`.
+The real data supporting the results of the study is the [Individual Household Electric Power Consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption) which is publicly available and also copied in the folder `real_data_application`. 
+
+The data for the Monte Carlo study can be generated using the code provided in the `simulations` folder.
 
 ## Contents
 
@@ -13,18 +15,18 @@ The numerical study is divided into two main parts:
 - **Real Data Application:** The scripts to reproduce the real data analysis are in the `real_data_application` folder.
 
 ## Installation
-### install using devtools
+### Install using devtools
 
 #. Make sure you have devtools package installed :
 ```R
 install.packages("devtools")
 ```
 
-then using devtools install the package :
+Then using devtools install the package :
 
 ```R
 devtools::install_github(
-    repo = "allemand-instable/Adaptive_Estimation_for_Weakly_Dependent_FTS", # the repo
+    repo = "hmaissoro/Adaptive_Estimation_for_Weakly_Dependent_FTS", # the repo
     ref = "HEAD", # use the latest commit
     subdir = "adaptiveFTS", # the package is not at the main root but inside the directory adaptiveFTS
     build = TRUE,
@@ -34,14 +36,14 @@ devtools::install_github(
 ```
 
 
-### build manually
-if you are using UNIX system, using z-shell :
+### Build manually
+If you are using UNIX system, using z-shell :
 
 ```shellscript
 zsh build.zsh
 ```
 
-the compiled package should be available in 
+The compiled package should be available in 
 ```
 ...
 ┣ out
