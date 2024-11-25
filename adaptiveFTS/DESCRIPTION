@@ -3,10 +3,10 @@ Type: Package
 Version: 0.1.0
 Title: Adaptive Estimation for Weakly Dependent Functional Time Series
 Description: Functions for adaptive estimation for weakly dependent functional time series that take into account Hölder continuous regularity of the sample paths.
-Author: Hassan Maissoro <hassan.maissoro@ensae.fr>
-Maintainer: Hassan Maissoro <hassan.maissoro@ensae.fr>
+Author: Hassan Maissoro <maissorohassan@gmail.com>
+Maintainer: Hassan Maissoro <maissorohassan@gmail.com>
 Authors@R: 
-    person("Hassan", "Maissoro", , email = "hassan.maissoro@ensae.fr", role = c("aut", "cre"))
+    person("Hassan", "Maissoro", , email = "maissorohassan@gmail.com", role = c("aut", "cre"))
     person("Hugo", "Brunet", , email = "hugo.brunet@uclouvain.be", role = c("ctb"),
            comment = c(contribution = "packaging format only"))
 License: GPL-3
