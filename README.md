@@ -13,6 +13,28 @@ The numerical study is divided into two main parts:
 - **Real Data Application:** The scripts to reproduce the real data analysis are in the `real_data_application` folder.
 
 ## Installation
+### install using devtools
+
+#. Make sure you have devtools package installed :
+```R
+install.packages("devtools")
+```
+
+then using devtools install the package :
+
+```R
+devtools::install_github(
+    repo = "allemand-instable/Adaptive_Estimation_for_Weakly_Dependent_FTS", # the repo
+    ref = "HEAD", # use the latest commit
+    subdir = "adaptiveFTS", # the package is not at the main root but inside the directory adaptiveFTS
+    build = TRUE,
+    build_manual = FALSE,
+    build_vignettes = FALSE
+)
+```
+
+
+### build manually
 if you are using UNIX system, using z-shell :
 
 ```shellscript
